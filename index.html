@@ -8,17 +8,28 @@
 </head>
 <body>
   <!-- Header Section -->
- <header>
+<header>
   <nav id="navbar">
-    <a href="#" id="logo">
-      <img src="images/education-logo-open-book-dictionary-textbook-or-notebook-with-graduation-hat-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-free-vector.jpg" alt="Logo">
-      BPD Educational
-    </a>
+    <div class="top-bar">
+      <div class="logo-center">
+        <img src="images/education-logo.jpg" alt="Logo">
+        <span>BPD Educational</span>
+      </div>
 
-    <!-- Hamburger Icon -->
-    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <div class="search-box-container">
+        <input type="text" placeholder="Search..." class="search-box">
+      </div>
+    </div>
 
-    <!-- Navigation Links -->
+    <div class="bottom-bar">
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+      <div class="auth-buttons">
+        <a href="Login/index.html" class="login-btn">Log in</a>
+        <a href="Signup/index.html" class="signup-btn">Sign up</a>
+      </div>
+    </div>
+
     <ul class="nav-links">
       <li><a href="#">Home</a></li>
       <li><a href="#footer">About</a></li>
@@ -26,15 +37,9 @@
       <li><a href="#">Resources</a></li>
       <li><a href="#">Contact</a></li>
     </ul>
-
-    <!-- Search & Login -->
-    <div class="search-login">
-      <input type="text" placeholder="Search..." class="search-box">
-      <a href="Login/index.html" class="login-btn">Log in</a>
-      <a href="Signup/index.html" class="signup-btn">Sign up</a>
-    </div>
   </nav>
 </header>
+
 
  <section class="hero">
     <div class="hero-text">
@@ -146,6 +151,7 @@
 </body>
 
 </html>
+
 
 
 
